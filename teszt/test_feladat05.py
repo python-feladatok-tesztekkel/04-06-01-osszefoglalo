@@ -7,7 +7,7 @@ sys.path.insert(0, parent_dir)
 import feladatok
 
 class TestOsszeg(TestCase):
-    def test_feladat01(self):
-        aktualis = feladatok.feladat01()
-        elvart = 33.2
-        self.assertEqual(elvart, aktualis, "Az összeget nem jól határozta meg!")
+    def test_feladat05(self):
+        aktualis = feladatok.feladat05()
+        elvart = -4
+        self.assertEqual(elvart, aktualis, "A legkisebbet nem jól határozta meg!")
