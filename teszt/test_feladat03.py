@@ -9,5 +9,5 @@ import feladatok
 class TestOsszeg(TestCase):
     def test_feladat03(self):
         aktualis = feladatok.feladat03()
-        elvart = 2.93
+        elvart = 3.73
         self.assertEqual(elvart, aktualis, "Az átlagot nem jól határozta meg!")
